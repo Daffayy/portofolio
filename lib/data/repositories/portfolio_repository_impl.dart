@@ -16,11 +16,10 @@ class PortfolioRepositoryImpl implements PortfolioRepository {
       name: 'Daffa Rafif Agustian',
       title: 'Mobile Developer',
       about: [
-        'Hello, I am Daffa Rafif Agustian. As a Mobile Developer, I possess skills in the Dart programming language and the Flutter framework. I graduated from Universitas Singaperbangsa Karawang, majoring in Informatics Engineering, Faculty of Computer Science, in 2022 with a GPA of 3.68.',
-        'In 2023, I received a bootcamp scholarship from PT Ihsan Solusi Informatika, marking the beginning of my journey as a Mobile Developer.',
-        'My professional experience includes working as a Mobile Developer at PT Amantra Investama Indodana, PT Ragdalion Revolusi Industri and interning as a Web Developer at PT Telkom Indonesia Tbk through the Certified Internship Program, Kampus Merdeka (MBKM).',
-        'During my time in university, I was actively involved in the Student Executive Board of the Faculty of Computer Science. This experience helped me develop soft skills such as being communicative, adaptive, and collaborative when working in a team.',
-        'This portfolio was implemented using Cursor AI—an AI-powered code editor that accelerates development through intelligent code completion, refactoring suggestions, and natural language to code. By leveraging Cursor AI, I was able to efficiently build this Flutter web application with Clean Architecture, MVVM pattern, and Riverpod state management, while maintaining code quality and best practices.',
+        'I am Daffa Rafif Agustian, a Mobile Developer specializing in Flutter and Dart. I hold a Bachelor\'s degree in Informatics Engineering from Universitas Singaperbangsa Karawang (2022) with a GPA of 3.68, and I am certified through the PT Ihsan Solusi Informatika bootcamp program.',
+        'With hands-on experience in fintech and enterprise applications, I have delivered production-ready mobile solutions using Clean Architecture, MVVM pattern, and state management (Riverpod, GetX). My technical stack includes API integration, version control with Git, and collaborative workflows with GitLab, Trello, JIRA.',
+        'I have contributed to the development of VISIKU—a Securities Crowdfunding platform—and multiple enterprise maintenance applications for companies such as Astra, Panasonic, and Hitachi Astemo. I also completed an internship at PT Telkom Indonesia through the Merdeka Belajar Kampus Merdeka (MBKM) program.',
+        'Beyond technical skills, I bring strong communication, adaptability, and teamwork—honed through my role in the Student Executive Board of the Faculty of Computer Science. I am committed to writing maintainable code and following industry best practices.',
       ],
       contact: ContactInfo(
         phone: '+6285881448883',
@@ -73,7 +72,14 @@ class PortfolioRepositoryImpl implements PortfolioRepository {
             'Hitachi Astemo',
             'Karang Taruna',
           ],
-          technologies: ['Flutter', 'GetX', 'Clean Architecture', 'Postman', 'GitLab', 'Trello'],
+          technologies: [
+            'Flutter',
+            'GetX',
+            'Clean Architecture',
+            'Postman',
+            'GitLab',
+            'Trello',
+          ],
         ),
         WorkExperience(
           company: 'PT Telkom Indonesia Tbk',

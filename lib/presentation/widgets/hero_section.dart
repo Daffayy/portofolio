@@ -121,7 +121,7 @@ class HeroSection extends StatelessWidget {
                 .slideY(begin: 0.3, end: 0, curve: Curves.easeOutBack),
             const SizedBox(height: 40),
             Text(
-                  'Crafting beautiful mobile experiences with Flutter',
+                  'Shipping Flutter apps for iOS & Android — marketplace, airport, fintech & enterprise',
                   style: Theme.of(context).textTheme.bodyLarge?.copyWith(
                     color: AppColors.textSecondary,
                     fontStyle: FontStyle.italic,
